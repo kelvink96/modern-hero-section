@@ -1,0 +1,42 @@
+{
+  "name": "Modern Hero Section",
+  "description": "A beautiful responsive hero section with gradient background, animated elements, and customizable content",
+  "category": "heroes",
+  "type": "component",
+  "framework": ["react", "vanilla"],
+  "styling": ["css", "tailwind"],
+  "features": [
+    "Fully responsive design",
+    "Gradient backgrounds",
+    "Smooth animations",
+    "Customizable content",
+    "Dark mode support",
+    "Accessibility compliant"
+  ],
+  "props": {
+    "title": {
+      "type": "string",
+      "default": "Build Something Amazing",
+      "description": "Main hero title"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Create beautiful user interfaces...",
+      "description": "Hero subtitle/description"
+    },
+    "primaryButtonText": {
+      "type": "string",
+      "default": "Get Started",
+      "description": "Primary call-to-action button text"
+    },
+    "showStats": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether to show statistics section"
+    }
+  },
+  "preview": {
+    "images": ["assets/hero-preview.png"],
+    "demo": "https://your-demo-url.com"
+  }
+}
